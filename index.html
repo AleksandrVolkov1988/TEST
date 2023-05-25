@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Keywords" content="HTML, CSS, интернет магазин, верстка">
+		<meta name="description" content="Шпаргалка для верстки"> 
+		<link rel="shortcut icon" href="images/icon.png">
+		<link rel="stylesheet" type="text/css" href="components/index.css">
+		<!-- <link rel="stylesheet" media="print" href="print.css"> -->
+		<!-- https://habr.com/ru/companies/ruvds/articles/317776/ -->
+		<title>BaZzZaR</title>
+	</head>
+	<body>
+		<header>
+			<img src="images/logo.jpg" alt="logo" tabindex="0">
+		</header>
+		<section class="selection">
+			<div class="selectionLeft">
+				<!-- Первый уровень -->
+				<div class="selection1"><select>
+					<option disabled selected> Тип фигуры </option>
+					<option value="t"> Треугольники </option>
+					<option value="q"> Четырёхугольники </option>
+					<option value="p"> Многоугольники </option>
+					<option value="e"> Окружности </option>
+				</select></div>
+				<!-- Второй уровень -->
+				<div class="selection2 none" id="t"><select>
+					<option disabled selected> Разновидность </option>
+					<option value="1"> Прямоугольные </option>
+					<option value="2"> Равносторонние </option>
+					<option value="3"> Равнобедренные </option>
+					<option value="4"> Разносторонние </option>
+				</select></div>
+				<div class="selection2 none" id="q"><select>
+					<option disabled selected> Разновидность </option>
+					<option value="1"> Квадраты </option>
+					<option value="2"> Прямоугольники </option>
+					<option value="3"> Ромбы </option>
+					<option value="4"> Параллелограммы </option>
+				</select></div>
+				<div class="selection2 none" id="p"><select>
+					<option disabled selected> Разновидность </option>
+					<option value="1"> Пятиугольники </option>
+					<option value="2"> Шестиугольники </option>
+					<option value="3"> Звезды </option>
+				</select></div>
+				<div class="selection2 none" id="e"><select>
+					<option disabled selected> Разновидность </option>
+					<option value="1"> Элипсы </option>
+					<option value="2"> Круги </option>
+				</select></div>
+				<!-- Третий уровень -->
+				<div class="selection3 none" id="t1"><select>
+					<option disabled selected> Цвет </option>
+					<option value="1"> Белый </option>
+					<option value="2"> Красный </option>
+					<option value="3"> Желтый </option>
+					<option value="4"> Зеленый </option>
+					<option value="5"> Голубой </option>
+					<option value="6"> Синий </option>
+					<option value="7"> Фиолетовый </option>
+				</select></div>
+				<div class="selection3 none" id="t2"><select>
+					<option disabled selected> Цвет </option>
+					<option value="1"> Белый </option>
+					<option value="2"> Красный </option>
+					<option value="3"> Желтый </option>
+					<option value="4"> Зеленый </option>
+					<option value="5"> Голубой </option>
+					<option value="6"> Синий </option>
+					<option value="7"> Фиолетовый </option>
+				</select></div>
+				<div class="selection3 none" id="t3"><select>
+					<option disabled selected> Цвет </option>
+					<option value="1"> Белый </option>
+					<option value="2"> Красный </option>
+					<option value="3"> Желтый </option>
+					<option value="4"> Зеленый </option>
+					<option value="5"> Голубой </option>
+					<option value="6"> Синий </option>
+					<option value="7"> Фиолетовый </option>
+				</select></div>
+				<div class="selection3 none" id="t4"><select>
+					<option disabled selected> Цвет </option>
+					<option value="1"> Белый </option>
+					<option value="2"> Красный </option>
+					<option value="3"> Желтый </option>
+					<option value="4"> Зеленый </option>
+					<option value="5"> Голубой </option>
+					<option value="6"> Синий </option>
+					<option value="7"> Фиолетовый </option>
+				</select></div>
+				<div class="selection3 none" id="q1"><select>
+					<option disabled selected> Цвет </option>
+					<option value="1"> Белый </option>
+					<option value="2"> Красный </option>
+					<option value="3"> Желтый </option>
+					<option value="4"> Зеленый </option>
+					<option value="5"> Голубой </option>
+					<option value="6"> Синий </option>
+					<option value="7"> Фиолетовый </option>
+				</select></div>
+				<div class="selection3 none" id="q2"><select>
+					<option disabled selected> Цвет </option>
+					<option value="1"> Белый </option>
+					<option value="2"> Красный </option>
+					<option value="3"> Желтый </option>
+					<option value="4"> Зеленый </option>
+					<option value="5"> Голубой </option>
+					<option value="6"> Синий </option>
+					<option value="7"> Фиолетовый </option>
+				</select></div>
+				<div class="selection3 none" id="q3"><select>
+					<option disabled selected> Цвет </option>
+					<option value="1"> Белый </option>
+					<option value="2"> Красный </option>
+					<option value="3"> Желтый </option>
+					<option value="4"> Зеленый </option>
+					<option value="5"> Голубой </option>
+					<option value="6"> Синий </option>
+					<option value="7"> Фиолетовый </option>
+				</select></div>
+				<div class="selection3 none" id="q4"><select>
+					<option disabled selected> Цвет </option>
+					<option value="1"> Белый </option>
+					<option value="2"> Красный </option>
+					<option value="3"> Желтый </option>
+					<option value="4"> Зеленый </option>
+					<option value="5"> Голубой </option>
+					<option value="6"> Синий </option>
+					<option value="7"> Фиолетовый </option>
+				</select></div>
+				<div class="selection3 none" id="p1"><select>
+					<option disabled selected> Цвет </option>
+					<option value="1"> Белый </option>
+					<option value="2"> Красный </option>
+					<option value="3"> Желтый </option>
+					<option value="4"> Зеленый </option>
+					<option value="5"> Голубой </option>
+					<option value="6"> Синий </option>
+					<option value="7"> Фиолетовый </option>
+				</select></div>
+				<div class="selection3 none" id="p2"><select>
+					<option disabled selected> Цвет </option>
+					<option value="1"> Белый </option>
+					<option value="2"> Красный </option>
+					<option value="3"> Желтый </option>
+					<option value="4"> Зеленый </option>
+					<option value="5"> Голубой </option>
+					<option value="6"> Синий </option>
+					<option value="7"> Фиолетовый </option>
+				</select></div>
+				<div class="selection3 none" id="p3"><select>
+					<option disabled selected> Цвет </option>
+					<option value="1"> Белый </option>
+					<option value="2"> Красный </option>
+					<option value="3"> Желтый </option>
+					<option value="4"> Зеленый </option>
+					<option value="5"> Голубой </option>
+					<option value="6"> Синий </option>
+					<option value="7"> Фиолетовый </option>
+				</select></div>
+				<div class="selection3 none" id="e1"><select>
+					<option disabled selected> Цвет </option>
+					<option value="1"> Белый </option>
+					<option value="2"> Красный </option>
+					<option value="3"> Желтый </option>
+					<option value="4"> Зеленый </option>
+					<option value="5"> Голубой </option>
+					<option value="6"> Синий </option>
+					<option value="7"> Фиолетовый </option>
+				</select></div>
+				<div class="selection3 none" id="e2"><select>
+					<option disabled selected> Цвет </option>
+					<option value="1"> Белый </option>
+					<option value="2"> Красный </option>
+					<option value="3"> Желтый </option>
+					<option value="4"> Зеленый </option>
+					<option value="5"> Голубой </option>
+					<option value="6"> Синий </option>
+					<option value="7"> Фиолетовый </option>
+				</select></div>
+				<div class="details none"></div>
+			</div>
+			<div class="message"><div class="message2">← <span>Выбери тип фигуры</span></div></div>
+			<div class="selectionRight none" onchange="selectionRightChange()">
+				<div>
+					Поверхность:
+					<br>
+					<input type="radio" name="surface" value='1' id='gloss' data-choice='1'checked>
+					<label for="gloss"></label> Глянец
+					<br>
+					<input type="radio" name="surface" value='1.1' id='matte' data-choice='2'>
+					<label for="matte"></label> Матовая (+10% к цене)
+				</div>
+				<div>
+					Нанести краску:
+					<br>
+					<input type="radio" name="painting" value='1' id='unilateral' data-choice='1' checked> 
+					<label for="unilateral"></label> С одной стороны
+					<br>
+					<input type="radio" name="painting" value='1.2' id='bilateral' data-choice='2'>
+					<label for="bilateral"></label> С двух сторон (+20% к цене)
+				</div>
+				<div>
+					Дополнительные функции:
+					<br>
+					<input type="checkbox" value='50' id='roundedCorners' data-choice='1'> 
+					<label for="roundedCorners" class="checkboxLabel"></label>Скругленные углы (+50$ к цене)
+					<br>
+					<input type="checkbox" value='100' id='chamfer' data-choice='1'> 
+					<label for="chamfer" class="checkboxLabel"></label>Снять фаски (+100$ к цене)
+				</div>
+				<div class="price">Итоговая цена: <span> 000 </span> $ </div>
+				<div class="button" onclick="addTolocalStorage()">Добавить в заказ</div>
+			</div>
+		</section>
+		<section class="finalOrderMain">
+			<div class="finalOrderBox notExtension">
+				<div class="dataOrder">
+					<div class="data-1">
+						<h3>Данные клиента:</h3>
+						<div>
+							<span>Клиент:</span> <input type="text" size="45"><br>
+							<span>Город:</span> <input type="text" size="45"><br>
+							<span>Район:</span> <input type="text" size="45"><br>
+							<span>Телефон:</span> <input type="tel" size="45"><br>
+							<span>Электронная почта:</span> <input type="email" size="45"><br>
+						</div>
+					</div>
+					<div class="data-2">
+						<h3>Данные по доставке:</h3>
+						<div>
+							<span class="plusMargin">Способ доставки:</span> 
+							<select size="1">
+								<option selected>Новая Почта</option>
+								<option>Delivery</option>
+								<option>Самовывоз</option>
+							</select><br>
+							<span>Номер отделения <br>
+							или адрес доставки:</span> <input type="text" size="45"><br>
+							<span>Ф.И.О. получателя:</span> <input type="text" size="45"><br>
+							<span>Телефон получателя:</span> <input type="tel" size="45"><br>
+						</div>
+					</div>
+				</div>
+				<div class="finalOrderTable"></div>
+				<div class="finalOrderTableNone">Нет добавленных товаров</div>
+				<input type="button" class="openOrder" value="Развернуть" onclick="openOrderF(event)">
+				<input type="button" class="closeOrder none" value="Свернуть" onclick="closeOrderF(event)">
+			</div>
+		</section>	
+		<script src="components/catalog.js"></script>
+		<script src="components/index.js"></script>
+	</body>
+</html>
